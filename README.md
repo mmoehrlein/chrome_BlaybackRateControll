@@ -1,6 +1,15 @@
 # chrome_BlaybackRateControll
-grabbing the first element with the &lt;video> tag from a page and beeing able to controll the PlaybackRate
+## Description
+grabbing the first element with the &lt;video> tag from a page and controls the playbackrate via button presses.
 
+## Chrome Extension
+1. clone or download the repo
+2. in your chrome go to `chrome://extensions`
+3. on the top right enable developer mode
+4. click "load unpacked extension" and select the chrome _extension directory from the repo
+
+
+## Bookmarklet
 You can just add a bookmark to your browser with The following code in the URL. The actual code will be pulled dynamically from this repo and is therefore always up to date.
 
 ```JavaScript
