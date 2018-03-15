@@ -7,12 +7,12 @@ You can just add a bookmark to your browser with The following code in the URL. 
 javascript:(function(){
     window.s0 = document.createElement('script');
     window.s0.setAttribute('type', 'text/javascript');
-    window.s0.setAttribute('src', 'https://bookmarkify.it/bookmarklets/8686/raw');
+    window.s0.setAttribute('src', 'https://cdn.rawgit.com/mmoehrlein/chrome_BlaybackRateControll/2ad50477/bookmarklet.js');
     document.getElementsByTagName('body')[0].appendChild(window.s0);
 })();
 ```
 
-If you don't like it to always get the up to date version just add the following snippet as a bookmark and add the code from [bookmarklet](https://github.com/mmoehrlein/chrome_PlaybackRateControll) at the indicated spot.
+If you don't like it to always get the up to date version just add the following snippet as a bookmark and add the code from [bookmarklet](https://github.com/mmoehrlein/chrome_BlaybackRateControll/blob/master/bookmarklet.js) at the indicated spot.
 
 ```JavaScript
 javascript:(function(){
