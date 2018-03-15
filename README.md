@@ -7,7 +7,7 @@ You can just add a bookmark to your browser with The following code in the URL. 
 javascript:(function(){
     window.s0 = document.createElement('script');
     window.s0.setAttribute('type', 'text/javascript');
-    window.s0.setAttribute('src', 'https://cdn.rawgit.com/mmoehrlein/chrome_BlaybackRateControll/2ad50477/bookmarklet.js');
+    window.s0.setAttribute('src', 'https://rawgit.com/mmoehrlein/chrome_BlaybackRateControll/master/bookmarklet.js');
     document.getElementsByTagName('body')[0].appendChild(window.s0);
 })();
 ```
