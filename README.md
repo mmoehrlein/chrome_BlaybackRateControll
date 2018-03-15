@@ -7,12 +7,12 @@ You can just add a bookmark to your browser with The following code in the URL. 
 javascript:(function(){
     window.s0 = document.createElement('script');
     window.s0.setAttribute('type', 'text/javascript');
-    window.s0.setAttribute('src', 'https://rawgit.com/mmoehrlein/chrome_BlaybackRateControll/master/bookmarklet.js');
+    window.s0.setAttribute('src', 'https://rawgit.com/mmoehrlein/chrome_BlaybackRateControll/master/chrome_extension/contentscript.js');
     document.getElementsByTagName('body')[0].appendChild(window.s0);
 })();
 ```
 
-If you don't like it to always get the up to date version just add the following snippet as a bookmark and add the code from [bookmarklet](https://github.com/mmoehrlein/chrome_BlaybackRateControll/blob/master/bookmarklet.js) at the indicated spot.
+If you don't like it to always get the up to date version just add the following snippet as a bookmark and add the code from [contenscript.js](https://github.com/mmoehrlein/chrome_BlaybackRateControll/blob/master/chrome_extension/contentscript.js) at the indicated spot.
 
 ```JavaScript
 javascript:(function(){
