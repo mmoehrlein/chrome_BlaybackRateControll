@@ -1,4 +1,6 @@
 # chrome_BlaybackRateControll
+[![GitHub license](https://img.shields.io/github/license/mmoehrlein/chrome_BlaybackRateControll.svg?style=flat-square)](https://github.com/mmoehrlein/chrome_BlaybackRateControll/blob/master/LICENSE) ![GitHub top language](https://img.shields.io/github/languages/top/mmoehrlein/chrome_BlaybackRateControll.svg?style=flat-square)
+
 ## Description
 grabbing the first element with the &lt;video> tag from a page and controls the playbackrate via button presses.
 
