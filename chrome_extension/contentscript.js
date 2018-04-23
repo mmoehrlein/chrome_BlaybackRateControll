@@ -1,32 +1,33 @@
-// getting all elements with tag video from the page and selecting the first one
-var video = document.getElementsByTagName('video')[0];
-
 var lastTimeoutID;
 var snack;
 
+document.addEventListener('DOMContentLoaded', function(){
+    // getting all elements with tag video from the page and selecting the first one
+    var video = document.getElementsByTagName('video')[0];
 
-// check if there was a video found
-if(video !== undefined){
-    init_snackbar();
+    // check if there was a video found
+    if(video !== undefined){
+        init_snackbar();
 
-    snackbar("Video found");
+        snackbar("Video found");
 
-    // adding eventlisteners for keypress
-    window.addEventListener("keypress", function(e){
+        // adding eventlisteners for keypress
+        window.addEventListener("keypress", function(e){
 
-        // if key pressed is ä increase speed
-        if(e.keyCode == 228){
-            video.playbackRate = Math.round((video.playbackRate + 0.1) * 100) / 100;
-            snackbar(video.playbackRate);
-        }
+            // if key pressed is ä increase speed
+            if(e.keyCode == 228){
+                video.playbackRate = Math.round((video.playbackRate + 0.1) * 100) / 100;
+                snackbar(video.playbackRate);
+            }
 
-        // if key pressed is ö decrease speed
-        if(e.keyCode == 246){
-            video.playbackRate = Math.round((video.playbackRate - 0.1) * 100) / 100;
-            snackbar(video.playbackRate);
-        }
-    });
-}
+            // if key pressed is ö decrease speed
+            if(e.keyCode == 246){
+                video.playbackRate = Math.round((video.playbackRate - 0.1) * 100) / 100;
+                snackbar(video.playbackRate);
+            }
+        });
+    }
+}, false);
 
 function init_snackbar(){
     // including the css for the snackbar
